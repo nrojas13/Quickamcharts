@@ -13,7 +13,7 @@ Download the package and reference the JavaScript file:
 Tutorial
 --------
 
-The easiest way to get started is follow the [Quickamcharts tutorial on Youtube](https://www.youtube.com/nicorojas01)!
+The easiest way to get started is follow the [Quickamcharts tutorial on Youtube](https://www.youtube.com/nicorojas01) coming soon :)
 
 
 Examples
