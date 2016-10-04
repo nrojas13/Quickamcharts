@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+	<title>Quickamcharts</title>
+	<script type="text/javascript" src="lib/js/jquery/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="lib/js/amcharts/amcharts.js"></script>
+	<script type="text/javascript" src="lib/js/amcharts/serial.js"></script>
+	<script type="text/javascript" src="lib/js/amcharts/pie.js"></script>
+	<script type="text/javascript" src="src/quickamcharts.js"></script>
+</head>
+<body>
+<div id="chart_div" style="width: 500px; height: 400px">
+	
+</div>
+<script type="text/javascript">
+	var arraySet = [
+		[{"Time": "00", "Value": "1"}, {"Time": "03", "Value": "4"}],
+		[{"Time": "00", "Value": "3"}, {"Time": "05", "Value": "1"}]
+	];
+	var nameSet = ["Value", "Value 2"];
+	var param = "Time";
+	var div = "chart_div";
+	Quickamcharts.lineGraph(arraySet, nameSet, param, div);
+</script>
+</body>
+</html>
